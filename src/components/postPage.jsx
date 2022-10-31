@@ -1,4 +1,7 @@
-export default function PostPage({posts, isLoading,currentPost, prev, next, paginate, pageNumbers}){
+import Loading from "./loading";
+import {NavLink} from 'react-router-dom'
+
+export default function PostPage({isLoading,currentPost, prev, next, paginate, pageNumbers}){
 
 
     return(
@@ -11,15 +14,19 @@ export default function PostPage({posts, isLoading,currentPost, prev, next, pagi
                             {post.title}
                         </li>
                 )
-            }) : <h1>Loading...</h1> }
+            }) : <Loading /> }
             </ul>
             <ul className="pagination">
+                
                 <li onClick={prev}>Prev</li>
-                {pageNumbers.map((number) => {
+                {/* <NavLink to=""> */}
+                   {pageNumbers.map((number) => {
                     return(<li key={number} onClick={() => {paginate(number)}}>
                      {number}
                     </li>)
-                })}
+                })} 
+                {/* </NavLink> */}
+                
                 <li onClick={next}>Next</li>
             </ul>
         </section>

@@ -1,6 +1,8 @@
 import {Link} from 'react-router-dom';
 
-export default function ErrorFalllBack({error}){
+
+
+export default function ErrorFallback({error}){
     return(
         <section className="errorFallBack">
             <h1>Something went wrong</h1>
@@ -9,3 +11,14 @@ export default function ErrorFalllBack({error}){
         </section>
     )
 }
+
+
+
+// function ErrorFallback({ error }) {
+//   return (
+//     <div role="alert">
+//       <p>Something went wrong:</p>
+//       <pre style={{ color: 'red' }}>{error.message}</pre>
+//     </div>
+//   );
+// }

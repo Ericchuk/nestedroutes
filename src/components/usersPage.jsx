@@ -1,6 +1,9 @@
+import Loading from "./loading"
+
 export default function UsersPage({currentUsers, userLoading, prev, next, pageNumbers, paginate, NavLink}) {
     return (
         <section className="user">
+            <h2>Users</h2>
             {userLoading ? currentUsers.map((user, index) => {
                 return(
                     <aside key={index}>
@@ -10,7 +13,7 @@ export default function UsersPage({currentUsers, userLoading, prev, next, pageNu
                         <p>{user.phone}</p>
                     </aside>
                 )
-            }) : <h1>Loading...</h1>}
+            }) : <Loading />}
 
         <ul className="pagination">
                 <li onClick={prev}>Prev</li>
