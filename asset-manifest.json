@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/routes-and-nested-routes/static/css/main.a8e618b6.css",
+    "main.js": "/routes-and-nested-routes/static/js/main.0bd6a17e.js",
+    "static/js/787.5f193ada.chunk.js": "/routes-and-nested-routes/static/js/787.5f193ada.chunk.js",
+    "static/media/glucose-meter.png": "/routes-and-nested-routes/static/media/glucose-meter.e639d8d35950e76d9cb3.png",
+    "static/media/cardiogram.png": "/routes-and-nested-routes/static/media/cardiogram.dbd31cd6330a6f822e21.png",
+    "static/media/blood.png": "/routes-and-nested-routes/static/media/blood.103162c64b0c1ffe30d4.png",
+    "static/media/group.png": "/routes-and-nested-routes/static/media/group.e5cb3c5eb890b0f37932.png",
+    "static/media/thermometer.png": "/routes-and-nested-routes/static/media/thermometer.2a452a1711bdf8a41d6f.png",
+    "index.html": "/routes-and-nested-routes/index.html",
+    "main.a8e618b6.css.map": "/routes-and-nested-routes/static/css/main.a8e618b6.css.map",
+    "main.0bd6a17e.js.map": "/routes-and-nested-routes/static/js/main.0bd6a17e.js.map",
+    "787.5f193ada.chunk.js.map": "/routes-and-nested-routes/static/js/787.5f193ada.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e618b6.css",
+    "static/js/main.0bd6a17e.js"
+  ]
+}
