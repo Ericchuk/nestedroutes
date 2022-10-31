@@ -3,7 +3,7 @@ import Header from './header';
 import HomePage from './homePage';
 import UsersPage from './usersPage';
 import PostPage from './postPage';
-// import Error404 from './errorPage';
+import Error404 from './errorPage';
 import ReadMore from './readMoreRoute';
 import {Routes,Route, NavLink, Link} from 'react-router-dom';
 import {useState, useEffect} from "react";
