@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nestedroutes/static/css/main.a8e618b6.css",
-    "main.js": "/nestedroutes/static/js/main.75fcb171.js",
+    "main.js": "/nestedroutes/static/js/main.b2d72826.js",
     "static/js/787.5f193ada.chunk.js": "/nestedroutes/static/js/787.5f193ada.chunk.js",
     "static/media/glucose-meter.png": "/nestedroutes/static/media/glucose-meter.e639d8d35950e76d9cb3.png",
     "static/media/cardiogram.png": "/nestedroutes/static/media/cardiogram.dbd31cd6330a6f822e21.png",
@@ -10,11 +10,11 @@
     "static/media/thermometer.png": "/nestedroutes/static/media/thermometer.2a452a1711bdf8a41d6f.png",
     "index.html": "/nestedroutes/index.html",
     "main.a8e618b6.css.map": "/nestedroutes/static/css/main.a8e618b6.css.map",
-    "main.75fcb171.js.map": "/nestedroutes/static/js/main.75fcb171.js.map",
+    "main.b2d72826.js.map": "/nestedroutes/static/js/main.b2d72826.js.map",
     "787.5f193ada.chunk.js.map": "/nestedroutes/static/js/787.5f193ada.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e618b6.css",
-    "static/js/main.75fcb171.js"
+    "static/js/main.b2d72826.js"
   ]
 }
