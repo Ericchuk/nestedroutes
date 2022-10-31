@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/landingPage/static/css/main.a8e618b6.css",
-    "main.js": "/landingPage/static/js/main.8d0ef527.js",
-    "static/js/787.5f193ada.chunk.js": "/landingPage/static/js/787.5f193ada.chunk.js",
-    "static/media/glucose-meter.png": "/landingPage/static/media/glucose-meter.e639d8d35950e76d9cb3.png",
-    "static/media/cardiogram.png": "/landingPage/static/media/cardiogram.dbd31cd6330a6f822e21.png",
-    "static/media/blood.png": "/landingPage/static/media/blood.103162c64b0c1ffe30d4.png",
-    "static/media/group.png": "/landingPage/static/media/group.e5cb3c5eb890b0f37932.png",
-    "static/media/thermometer.png": "/landingPage/static/media/thermometer.2a452a1711bdf8a41d6f.png",
-    "index.html": "/landingPage/index.html",
-    "main.a8e618b6.css.map": "/landingPage/static/css/main.a8e618b6.css.map",
-    "main.8d0ef527.js.map": "/landingPage/static/js/main.8d0ef527.js.map",
-    "787.5f193ada.chunk.js.map": "/landingPage/static/js/787.5f193ada.chunk.js.map"
+    "main.css": "/nestedroutes/static/css/main.a8e618b6.css",
+    "main.js": "/nestedroutes/static/js/main.75fcb171.js",
+    "static/js/787.5f193ada.chunk.js": "/nestedroutes/static/js/787.5f193ada.chunk.js",
+    "static/media/glucose-meter.png": "/nestedroutes/static/media/glucose-meter.e639d8d35950e76d9cb3.png",
+    "static/media/cardiogram.png": "/nestedroutes/static/media/cardiogram.dbd31cd6330a6f822e21.png",
+    "static/media/blood.png": "/nestedroutes/static/media/blood.103162c64b0c1ffe30d4.png",
+    "static/media/group.png": "/nestedroutes/static/media/group.e5cb3c5eb890b0f37932.png",
+    "static/media/thermometer.png": "/nestedroutes/static/media/thermometer.2a452a1711bdf8a41d6f.png",
+    "index.html": "/nestedroutes/index.html",
+    "main.a8e618b6.css.map": "/nestedroutes/static/css/main.a8e618b6.css.map",
+    "main.75fcb171.js.map": "/nestedroutes/static/js/main.75fcb171.js.map",
+    "787.5f193ada.chunk.js.map": "/nestedroutes/static/js/787.5f193ada.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e618b6.css",
-    "static/js/main.8d0ef527.js"
+    "static/js/main.75fcb171.js"
   ]
 }
