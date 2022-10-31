@@ -99,7 +99,7 @@ export default function LandingPage(){
                 </Route>
                 <Route path="/users" element={<UsersPage users={users} userLoading={userLoading} currentUsers={currentUsers} prev={prev} next={next} paginate={paginate} pageNumbers={pageNumbers} NavLink={NavLink}/>} currentPage={currentPage} />
                 <Route path="/post" element={<PostPage posts={posts} isLoading={isLoading} currentPost={currentPost} prev={prev} next={next} paginate={paginate} pageNumbers={pageNumbers}/>} NavLink={NavLink} />
-                {/* <Route path="*" element={<Error404 Link={Link} />} /> */}
+                <Route path="*" element={<Error404 Link={Link} />} />
             </Routes>
         </article>
     )

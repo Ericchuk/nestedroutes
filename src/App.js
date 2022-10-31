@@ -1,4 +1,4 @@
-import LandingPage from './components/landingPage'
+import LandingPage from './components/alandingPagee'
 import './App.css';
 import { ErrorBoundary, useErrorHandler } from 'react-error-boundary';
 import ErrorFallback from './errorFallBack'
