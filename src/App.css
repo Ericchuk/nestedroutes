@@ -94,28 +94,30 @@ nav ul li {
   margin: 5px 0 10px;
   padding: 10px 0;
   list-style: none;
+  transition: transform 0.4s;
 }
-nav ul li a {
-  text-decoration: none;
-  color: red;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  list-style: none;
+nav ul li :hover {
+  transform: scale(1.05);
 }
-nav ul li a img {
+nav ul li img {
   width: 25px;
   margin: 0 15px 0 0;
 }
-nav ul li a p {
+nav ul li p {
   text-transform: capitalize;
   color: red;
 }
 nav ul:last-child {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-end;
   height: 8vh;
+}
+nav ul:last-child li:hover {
+  transform: scale(1.1);
+}
+nav ul:last-child li {
+  transition: transform 0.3s;
 }
 
 .slide {
@@ -470,11 +472,14 @@ nav ul:last-child {
     display: none;
   }
   nav ul:last-child {
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     height: 30vh;
     margin-top: 0;
+    width: 80%;
+    justify-content: center;
+  }
+  nav ul:last-child li {
+    margin: 0;
   }
   .active {
     background-color: rgba(0, 0, 0, 0.225);

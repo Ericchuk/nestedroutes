@@ -1,6 +1,8 @@
 import home from "./images/home.png";
 import users from "./images/group.png";
 import post from "./images/post.png";
+import github from "./images/github.png";
+import twitter from "./images/twitter-sign.png";
 
 export default function Sidebar({ NavLink, showNav, toggleNav }) {
   const navArr = [
@@ -21,13 +23,13 @@ export default function Sidebar({ NavLink, showNav, toggleNav }) {
     );
   });
 
-  const social = [{a:'facebook.com', img:'F'},{a:'github.com/erichuk', img:'Git'},{a:'twitter.com', img:'T'}];
+  const social = [{a:'https://github.com/Ericchuk', img:github},{a:'https://twitter.com/ericbraven', img:twitter}];
 
   const socialLinks = social.map((item, index) => {
     return (
       <li key={index}>
         <a href={item.a}>
-          <p>{item.img}</p>
+          <img src={item.img} alt={item.a}/>
         </a>
       </li>
     )
