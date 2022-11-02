@@ -5,6 +5,7 @@ import UsersPage from './usersPage';
 import PostPage from './postPage';
 import Error404 from './errorPage';
 import ReadMore from './readMoreRoute';
+import FrontPage from './front-page'
 import {Routes,Route, NavLink, Link} from 'react-router-dom';
 import {useState, useEffect} from "react";
 
@@ -16,6 +17,7 @@ export default function LandingPage(){
     const [postsPerPage] = useState(10);
     const [users, setUsers] = useState([]);
     const [userLoading, setUserLoading] = useState(false);
+    const [runTime, setRunTime] = useState(true);
     
 
     useEffect(() => {
@@ -49,6 +51,13 @@ export default function LandingPage(){
         }
         getPost();
     }, [])
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setRunTime(false)
+          }, 11000);
+          return () => clearTimeout(timer);
+    }, [runTime])
     
     function toggleNav(){
         setShowNav(!showNav);
@@ -101,6 +110,7 @@ export default function LandingPage(){
                 <Route path="/post" element={<PostPage posts={posts} isLoading={isLoading} currentPost={currentPost} prev={prev} next={next} paginate={paginate} pageNumbers={pageNumbers}/>} NavLink={NavLink} />
                 <Route path="*" element={<Error404 Link={Link} />} />
             </Routes>
+            {runTime ? <FrontPage /> : ""}
         </article>
     )
 }

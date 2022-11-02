@@ -114,9 +114,15 @@ nav{
             :hover{
                 transform:scale(1.05)
             }
-
-    
-    
+            a{
+                width:100%;
+                display:flex;
+                justify-content:flex-start;
+                align-items:center;
+                text-decoration:none;
+                padding:10px;
+                border-radius:5px;
+                
                 img{
                     width:25px;
                     margin:0 15px 0 0;
@@ -126,6 +132,7 @@ nav{
                     text-transform: capitalize;
                     color:red;
                 }
+            }           
         }
 
     }
@@ -481,6 +488,70 @@ nav{
         border-radius:50px;
         padding:10px;
         margin:10px 0;
+    }
+}
+
+.front{
+    z-index:5;
+    position:absolute;
+    top:0;
+    width:100%;
+    // border:2px solid red;
+    height:100vh;
+    overflow:hidden;
+
+    aside{
+        width:100%;
+        height:20vh;
+        background:orange;
+        outline:none;
+        border:none;
+        font-family: 'Pacifico', cursive;
+        animation:slidOutRight 3.3s 7s linear;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+
+        h1{
+            font-size:30px;
+            color:white;
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+            font-family: 'Pacifico', cursive;
+            animation:slidIn 3s linear;
+        }
+    }
+
+    aside:nth-child(3){
+        animation:slidOutLeft 3.3s 7s linear; 
+    }
+}
+
+@keyframes slidIn{
+    0%{
+        transform:translateX(-100%) scale(1.7);
+    }
+    100%{
+        transform:translateX(0%) scale(1);
+    }
+}
+
+
+@keyframes slidOutRight{
+    0%{
+        transform:translateX(0%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+
+@keyframes slidOutLeft{
+    0%{
+        transform:translateX(0%);
+    }
+    100%{
+        transform:translateX(100%);
     }
 }
 

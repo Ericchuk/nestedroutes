@@ -15,7 +15,10 @@ export default function Sidebar({ NavLink, showNav, toggleNav }) {
   const navItem = navArr.map((item, index) => {
     return (
       <li key={index}>
-        <NavLink to={item.link} className="a">
+        <NavLink to={item.link} style={({ isActive }) => ({
+    color: isActive ? '#fff' : '#545e6f',
+    background: isActive ? '#7600dc' : '#f0f0f0',
+  })}>
           <img src={item.icon} alt={item.altText} />
           <p>{item.altText}</p>
         </NavLink>
