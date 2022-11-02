@@ -91,8 +91,8 @@ nav ul {
   padding: 90px 20px 10px;
 }
 nav ul li {
-  margin: 5px 0 10px;
-  padding: 10px 0;
+  margin: 15px 0 10px;
+  padding: 0px 0;
   list-style: none;
   transition: transform 0.4s;
 }
@@ -551,16 +551,18 @@ nav ul:last-child li {
     border-radius: 80px;
   }
   nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
   }
-  nav ul .a img {
+  nav ul li a {
+    margin: 10px 6px;
+    width: 80%;
+    justify-content: center;
+  }
+  nav ul li a img {
     width: 25px;
     margin: 5px 10px;
   }
-  nav ul .a p {
+  nav ul li a p {
     display: none;
   }
   nav ul:last-child {

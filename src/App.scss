@@ -106,8 +106,8 @@ nav{
         padding:90px 20px 10px;
 
         li{
-            margin:5px 0 10px;
-            padding:10px 0;
+            margin:15px 0 10px;
+            padding:0px 0;
             list-style: none;
             transition:transform .40s;
 
@@ -584,13 +584,12 @@ nav{
             border-radius:80px;
 
             li{
-                display:flex;
-                justify-content:center;
-                align-items:center;
                 width:100%;
-            }
 
-            .a{
+            a{
+                margin:10px 6px;
+                width:80%;
+                justify-content: center;
 
                 img{
                     width:25px;
@@ -601,6 +600,7 @@ nav{
                     display:none;
                 }
             }
+        }
         }
 
         ul:last-child{
