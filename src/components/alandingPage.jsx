@@ -71,7 +71,7 @@ export default function LandingPage(){
     const pageNumbers = [];
 
 
-    for(let i = 1; i < Math.ceil(posts.length  / postsPerPage); i++){
+    for(let i = 1; i < Math.ceil(posts.length  / postsPerPage + 1); i++){
         pageNumbers.push(i);
     }
 
